@@ -7,6 +7,7 @@ def remove_before_and_including(arr, value)
   arr.slice!(0..index)
   arr
 end
+
 def length_of_longest_substring(s)
   arr = []
   counter = []
